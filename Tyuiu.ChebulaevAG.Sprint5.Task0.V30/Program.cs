@@ -20,7 +20,7 @@ namespace Tyuiu.ChebulaevAG.Sprint5.Task0.V30
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Класс File. Запись данных в текстовый                             *");
+            Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                        *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #30                                                             *");
             Console.WriteLine("* Выполнил: Чебулаев Андрей Геннадьевич | РПСб-23-1                       *");
