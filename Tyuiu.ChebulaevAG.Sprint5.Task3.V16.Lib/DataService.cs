@@ -12,7 +12,7 @@ namespace Tyuiu.ChebulaevAG.Sprint5.Task3.V16.Lib
 {
     public class DataService : ISprint5Task3V16
     {
-        public double SaveToFileTextData(int x)
+        public string SaveToFileTextData(int x)
         {
             string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask3.bin";
 
@@ -23,9 +23,7 @@ namespace Tyuiu.ChebulaevAG.Sprint5.Task3.V16.Lib
             {
                 writer.Write(z);
             }
-
-            return z;
-            
+            return path;
         }
     }
 }

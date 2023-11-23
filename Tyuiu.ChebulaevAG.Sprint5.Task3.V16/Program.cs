@@ -41,7 +41,7 @@ namespace Tyuiu.ChebulaevAG.Sprint5.Task3.V16
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            double res = ds.SaveToFileTextData(x);
+            string res = ds.SaveToFileTextData(x);
             
             Console.WriteLine("Файл: " + res);
             Console.WriteLine("Создан!");
